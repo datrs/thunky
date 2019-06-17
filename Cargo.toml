@@ -1,0 +1,13 @@
+[package]
+name = "thunky"
+version = "0.9.0"
+description = "Delay the evaluation of a paramless async function and cache the result."
+repository = "https://github.com/ZhouHansen/thunky"
+documentation = "https://docs.rs/thunky"
+authors = ["ZhouHansen <z308114274@gmail.com>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+tokio = "0.1.21"
