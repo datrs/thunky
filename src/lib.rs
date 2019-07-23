@@ -1,3 +1,5 @@
+#![cfg_attr(test, deny(warnings))]
+
 use std::sync::{Arc, Mutex};
 
 type Cb<T, E> = Box<Fn(&Result<T, E>) -> () + Send + Sync>;
